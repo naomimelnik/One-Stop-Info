@@ -11,37 +11,32 @@ document.getElementById("searchForm").addEventListener("submit", function (event
         { name: "National Weather Service (NWS)", url: "https://www.weather.gov/" },
         { name: "News 5 Cleveland Weather", url: "https://www.news5cleveland.com/weather" },
         { name: "Storm Prediction Center (SPC)", url: "https://www.spc.noaa.gov/" },
-        { name: "How to prepare for Tornadoes", url: "SubPages/weather.html#tornado" },
-        { name: "How to Prepare for Floods", url: "SubPages/weather.html#flood" },
-        { name: "Winter Storm Safety Tips", url: "SubPages/weather.html#winter-storm" },
+        { name: "How to prepare for Tornadoes", url: "weather.html#tornado" },
+        { name: "How to Prepare for Floods", url: "weather.html#flood" },
+        { name: "Winter Storm Safety Tips", url: "weather.html#winter-storm" },
 
         //How-To Page Content
-        { name: "CPR instructions", url: "SubPages/how_to.html#cpr" },
-        { name: "Torniquet instructions", url:"SubPages/how_to.html#torniquet" },
+        { name: "CPR instructions", url: "how_to.html#cpr" },
+        { name: "Torniquet instructions", url:"how_to.html#torniquet" },
 
         //Shelter Page Content
-        { name: "Local Shelters", url: "SubPages/shelter.html" },
-        { name: "Emergency Shelters Near Me", url: "SubPages/shelter.html#emergency" },
-        { name: "Shelter Resources", url: "SubPages/shelter.html#resources" },
+        { name: "Local Shelters", url: "shelter.html" },
+        { name: "Emergency Shelters Near Me", url: "shelter.html#emergency" },
+        { name: "Shelter Resources", url: "shelter.html#resources" },
 
         //Traffic Page Content
-        { name: "Current Traffic Updates", url: "SubPages/traffic.html" },
-        { name: "Road Closures", url: "SubPages/traffic.html#closures" },
-        { name: "Accident Reports", url: "SubPages/traffic.html#accidents" },
+        { name: "Current Traffic Updates", url: "traffic.html" },
+        { name: "Road Closures", url: "traffic.html#closures" },
+        { name: "Accident Reports", url: "traffic.html#accidents" },
 
         //Weather Page Content
-        { name: "Weather Map", url: "SubPages/weather.html#map" },
-        { name: "Hourly Forecast", url: "SubPages/weather.html#hourly" },
+        { name: "Weather Map", url: "weather.html#map" },
+        { name: "Hourly Forecast", url: "weather.html#hourly" },
 
         //Hospitals Page Content
-        { name: "Nearby Hospitals", url: "SubPages/hospital.html" },
-        { name: "Emergency Rooms", url: "SubPages/hospital.html#emergency" },
-        { name: "Hospital Services", url: "SubPages/hospital.html#services" },
-
-        //Government Officials Page Content
-        { name: "Local Government Officials", url: "SubPages/gov_officials.html" },
-        { name: "State Representatives", url: "SubPages/gov_officials.html#state-reps" },
-        { name: "Emergency Contact Numbers", url: "SubPages/gov_officials.html#contacts" }
+        { name: "Nearby Hospitals", url: "hospital.html" },
+        { name: "Emergency Rooms", url: "hospital.html#emergency" },
+        { name: "Hospital Services", url: "hospital.html#services" },
     ];
 
     //Search logic
