@@ -1,0 +1,37 @@
+html {
+
+  background-color: aliceblue;
+}
+
+.jumbotron{
+  background-color: beige;
+  text-align: center;
+  
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+p{
+text-align: center;
+}
+
+
+.center iframe {
+  display: block; 
+  margin: 0 auto; 
+}
+
+
+
+footer{
+text-align: center;
+padding: 10px 0;
+background-color: lightgoldenrodyellow;
+color: black;
+font-size: 0.9em;
+}
